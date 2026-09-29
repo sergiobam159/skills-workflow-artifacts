@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: ations/setup-node@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: 24
           cache: npm
@@ -25,5 +25,5 @@ jobs:
         with:
           name: test-coverage-report
           path: coverage/
-          
+
 
